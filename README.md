@@ -1,6 +1,6 @@
-com.ipaper.sample.menu
+com.leandro.gp.excel
 ==============================
 
 Free as in free beer.
 
-mike.howles @ gmail.com if you want to chat about Design Studio SDK goodness.
+leandrosapbo @ gmail for any further help needed.

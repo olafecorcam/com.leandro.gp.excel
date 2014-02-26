@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sdkExtension xmlns="http://www.sap.com/bi/zen/sdk" id="com.leandro.gp.excel"
 	title="Excel" version="1.0" vendor="Leandro">
-	<component id="Excel" title="Excel" icon="res/icon.png"
+	<component id="Excel" title="Excel" icon="res/excel.png"
 		handlerType="sapui5"
 		propertySheetPath="res/additional_properties_sheet/additional_properties_sheet.html"
 		databound="false">

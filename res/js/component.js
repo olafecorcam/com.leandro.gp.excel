@@ -18,7 +18,7 @@ sap.ui.commons.Button
 						this.idcomp = value;
 						this.setText(this.getBtnText());
 						this.setLite(true);
-						this.setIcon("./icon.png");
+						this.setIcon("./excel.png");
 						this
 								.attachPress(function() {
 									var tableToExcel = (function() {
@@ -45,8 +45,15 @@ sap.ui.commons.Button
 															ctx));
 										};
 									})();
-									
-									tableToExcel(value+"_control","teste");
+									if (document.getElementById(value
+											+ "_control"))
+										tableToExcel(value + "_control",
+												"table");
+									else if (document.getElementById(value
+											+ "_table"))
+										tableToExcel(value + "_table", "table");
+									else
+										alert("Table not found, please configure the component ID property");
 								});
 
 					},
